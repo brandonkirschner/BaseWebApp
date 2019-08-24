@@ -8,13 +8,15 @@
     <!-- Check out more components here: http://getbootstrap.com/components/ -->
     <div class="page-header">
       <% include ../helpers/navbar %>
-      <h1>Welcome</h1>
+      <h1>Weather App</h1>
     </div>
+    <input type="text" class="search" placeholder="Enter city name" />
+    <button type="button" onClick="searchWeather()">Search</button>
 
-    <p>Click on the button for a surprise.</p>
+    <div class="city"></div>
 
-    <button onClick="showPicture()" class="btn btn-dark">Click me</button>
+    <div class="temp"></div>
 
-    <div id="image"></div>
+    <div class="error-message"></div>
   </body>
 </html>

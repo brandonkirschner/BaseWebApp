@@ -2,7 +2,7 @@
   "name": "node-js-getting-started",
   "version": "0.1.5",
   "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "main": "./project/start.js",
   "scripts": {
     "start": "node project/start.js"
   },
