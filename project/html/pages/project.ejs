@@ -10,5 +10,16 @@
       <% include ../helpers/navbar %>
       <h1>Database Web App</h1>
     </div>
+    <button onclick="handleSignIn()">Login</button>
+
+    <form action="#" onSubmit="handleMessageFormSubmit()">
+      Title:<br />
+      <input id="post-title" /><br />
+      Body:<br />
+      <textarea id="post-body"></textarea>
+      <button>Submit</button>
+    </form>
+
+    <div id="post-listing"></div>
   </body>
 </html>
